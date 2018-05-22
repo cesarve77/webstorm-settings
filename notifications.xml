@@ -1,5 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="CodealikeApplicationComponent.Notifications" displayType="NONE" shouldLog="false" />
-  </component>
-</application>
