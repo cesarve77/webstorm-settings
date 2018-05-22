@@ -1,0 +1,43 @@
+<templateSet group="ReactJs">
+  <template name="cdm" value="componentDidMount(){&#10; $END$&#10;}" description="componentDidMount()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount(){&#10; $END$&#10;}" description="componentWillMount()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwrp" value="componentWillReceiveProps(nextProps){&#10; $END$&#10;}" description="componentWillReceiveProps(nextProps)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scu" value="shouldComponentUpdate(nextProps, nextState){&#10; $END$&#10;}" description="shouldComponentUpdate(nextProps, nextState)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cwu" value="componentWillUpdate(nextProps, nextState){&#10;    $END$&#10;}" description="componentWillUpdate(nextProps, nextState)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cdu" value="componentDidUpdate(prevProps, prevState){&#10; $END$&#10;}" description="componentDidUpdate(prevProps, prevState)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="this.setState({$END$})" description="setState" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fm" value="&lt;FormattedMessage  id=&quot;$ID$&quot;  defaultMessage=&quot;$SELECTION$&quot; /&gt;&#10;" description="FormattedMessage" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

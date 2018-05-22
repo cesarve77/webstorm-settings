@@ -1,0 +1,18 @@
+<templateSet group="Sematic-react">
+  <template name="sui-grid-1" value="&lt;Grid stackable&gt;&#10;    &lt;Grid.Row&gt;&#10;      &lt;Grid.Column mobile={16} tablet={16} computer={16} largeScreen={16} widescreen={16}&gt;&#10;        $END$ $SELECTION$&#10;      &lt;/Grid.Column&gt;&#10;    &lt;/Grid.Row&gt;&#10;&lt;/Grid&gt;" description="1 column Grid" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sui-grid-2" value="&lt;Grid stackable&gt;&#10;    &lt;Grid.Row&gt;&#10;      &lt;Grid.Column mobile={8} tablet={8} computer={8} largeScreen={8} widescreen={8}&gt;&#10;        $END$ $SELECTION$&#10;      &lt;/Grid.Column&gt;&#10;      &lt;Grid.Column  mobile={8}  tablet={8} computer={8} largeScreen={8} widescreen={8}&gt;&#10;&#10;      &lt;/Grid.Column&gt;&#10;    &lt;/Grid.Row&gt;&#10;&lt;/Grid&gt;" description="2 columsn Grid" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sui-grid-3" value="&lt;Grid stackable  columns='equal'&gt;&#10;    &lt;Grid.Row columns={3}&gt;&#10;      &lt;Grid.Column &gt;&#10;        $END$ $SELECTION$&#10;      &lt;/Grid.Column&gt;&#10;      &lt;Grid.Column  &gt;&#10;        &#10;      &lt;/Grid.Column&gt;&#10;       &lt;Grid.Column  &gt;&#10;&#10;      &lt;/Grid.Column&gt;&#10;    &lt;/Grid.Row&gt;&#10;&lt;/Grid&gt;" description="3 Columns Grid" toReformat="false" toShortenFQNames="true" />
+  <template name="sui-table" value="&lt;Table &gt;&#10;    &lt;Table.Header&gt;&#10;      &lt;Table.Row&gt;&#10;        &lt;Table.HeaderCell&gt;Header&lt;/Table.HeaderCell&gt;&#10;        &lt;Table.HeaderCell&gt;Header&lt;/Table.HeaderCell&gt;&#10;        &lt;Table.HeaderCell&gt;Header&lt;/Table.HeaderCell&gt;&#10;      &lt;/Table.Row&gt;&#10;    &lt;/Table.Header&gt;&#10;    &lt;Table.Body&gt;&#10;      &lt;Table.Row&gt;&#10;        &lt;Table.Cell&gt;&#10;          &lt;Label ribbon&gt;First&lt;/Label&gt;&#10;        &lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;      &lt;/Table.Row&gt;&#10;      &lt;Table.Row&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;      &lt;/Table.Row&gt;&#10;      &lt;Table.Row&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;        &lt;Table.Cell&gt;Cell&lt;/Table.Cell&gt;&#10;      &lt;/Table.Row&gt;&#10;    &lt;/Table.Body&gt;&#10;&lt;/Table&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

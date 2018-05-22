@@ -1,0 +1,11 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Meteor Js Template.html" reformat="true" live-template-enabled="true" />
+      <template name="Meteor JS Template.js" reformat="true" live-template-enabled="true" />
+      <template name="React Component.js" reformat="false" live-template-enabled="true" />
+      <template name="React Function.js" reformat="false" live-template-enabled="true" />
+      <template name="React withTracker Component.js" reformat="false" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
